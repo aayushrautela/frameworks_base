@@ -570,7 +570,7 @@
 
     <!-- If true, the screen can be rotated via the accelerometer in all 4
          rotations as the default behavior. -->
-    <bool name="config_allowAllRotations">false</bool>
+    <bool name="config_allowAllRotations">true</bool>
 
     <!-- If true, the direction rotation is applied to get to an application's requested
          orientation is reversed.  Normally, the model is that landscape is
@@ -642,7 +642,7 @@
     <!-- Indicate whether closing the lid causes the device to go to sleep and opening
          it causes the device to wake up.
          The default is false. -->
-    <bool name="config_lidControlsSleep">false</bool>
+    <bool name="config_lidControlsSleep">true</bool>
 
     <!-- The device states (supplied by DeviceStateManager) that should be treated as folded by the
          display fold controller. Default is empty. -->
@@ -2033,7 +2033,7 @@
     <bool name="config_sip_wifi_only">false</bool>
 
     <!-- Enables built-in SIP phone capability -->
-    <bool name="config_built_in_sip_phone">true</bool>
+    <bool name="config_built_in_sip_phone">false</bool>
 
     <!-- Boolean indicating if restoring network selection should be skipped -->
     <!-- The restoring is handled by modem if it is true-->
